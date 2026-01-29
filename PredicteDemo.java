@@ -7,7 +7,7 @@ public class PredicteDemo {
 		System.out.println(p.test(10));
 		
 		Predicate<Integer> p1 = n->n>10;
-		//and(Both true) -> Default Method
+		//and(Both true) -> Default Method 
 		System.out.println(p.and(p1).test(16));
 		
 		//or(Only one true) -> Default Method
@@ -25,3 +25,4 @@ public class PredicteDemo {
 		System.out.println(p3.test(10, 20));
 	}
 }
+
