@@ -6,7 +6,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class StreamDemo {
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		//Stream Life Cycle
 		//Source->Pipeline->Intermediate Operation->Termination Operation
 		
@@ -31,4 +31,5 @@ public class StreamDemo {
 		//Method Chaining
 		l.stream().map(n->2*n).forEach(n->System.out.println(n));
 	}
+
 }
