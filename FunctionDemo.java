@@ -5,7 +5,7 @@ import java.util.function.Function;
 
 public class FunctionDemo {
 	public static void main(String[] args) {
-		//Function
+		//Function 
 		Function<Integer,Integer> f = n->2*n;
 		System.out.println(f.apply(5));
 		
@@ -23,4 +23,5 @@ public class FunctionDemo {
 		BiFunction<Integer,Integer,Integer> f2 = (x,y)->x+y;
 		System.out.println(f2.apply(10, 20));
 	}
+
 }
