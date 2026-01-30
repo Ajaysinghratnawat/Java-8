@@ -1,7 +1,7 @@
 # Java-8 Examples
 
 A simple set of Java 8 feature demonstrations showing how to use functional interfaces and the Stream API. This repository includes basic examples of **Consumer**, **Function**, **Predicate**, **Supplier** and **Stream** usage in Java 8.
-
+ 
 ## 🚀 Overview
 
 Java 8 introduced major enhancements to the language, including:
